@@ -1,0 +1,17 @@
+class: entree
+
+attributes:
+
+tableware_type (string)
+main_item (string)
+vegetarian_option (boolean)
+side_item (string)
+price (float)
+spice_level (integer)
+
+methods:
+
+add_jalapeño (modifies spice_level)
+remove_chicken (modifies vegetarian_option)
+apply_coupon (modifies price)
+liquify_meal (modifies tableware_type)
