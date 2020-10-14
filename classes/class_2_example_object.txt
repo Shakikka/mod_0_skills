@@ -1,0 +1,18 @@
+object: iced_tea
+
+attributes:
+
+is_caffeinated: true
+calorie_count: 2
+is_hot: false
+container_type: "bottle"
+straw_worthy: true
+refill_count: 0
+
+methods:
+
+decaffeinate: is_caffeinated = false
+microwave: is_hot = true
+accept_refill: refill_count = 1
+add_sugar: calorie_count = 18
+pour_out: container_type = "glass"
