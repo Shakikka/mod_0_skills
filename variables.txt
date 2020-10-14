@@ -1,0 +1,15 @@
+var food = "mafe"
+var isDelicious = true
+
+// reassignment
+food = "calzone"
+
+var num2 = 57
+var num7 = 13
+var quotient = .23
+
+var songs = ["Geek U.S.A", "Spaceboy", "Silverfuck", "Sweet Sweet"]
+var consecutiveSongs = songs.slice (1);
+console.log(consecutiveSongs);
+
+food.length
