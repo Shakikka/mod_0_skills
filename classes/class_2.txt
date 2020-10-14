@@ -1,0 +1,18 @@
+class: drink
+
+attributes:
+
+is_caffeinated (boolean)
+calorie_count (integer)
+is_hot (boolean)
+container_type (string)
+straw_worthy (boolean)
+refill_count (integer)
+
+methods:
+
+decaffeinate (adjusts is_caffeinated)
+microwave (adjusts is_hot)
+accept_refill (adjusts refill_count)
+add_sugar (adjusts calorie_count)
+pour_out (adjusts container_type)
