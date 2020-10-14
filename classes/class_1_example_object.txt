@@ -1,0 +1,17 @@
+class: Chicken_Taco
+
+attributes:
+
+tableware_type: "small plate"
+main_item: "taco"
+vegetarian_option: false
+side_item: "salsa"
+price: 2.99
+spice_level: 1
+
+methods:
+
+add_jalapeño: spice_level = 3
+remove_chicken: vegetarian_option = true
+apply_coupon: price = 2.39
+liquify_meal: tableware_type = "bowl"
